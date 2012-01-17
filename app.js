@@ -6,6 +6,11 @@
  * To change this template use File | Settings | File Templates.
  */
 
+// Ext Loader configuration
+Ext.Loader.setConfig({
+    enabled: true
+});
+
 Ext.application({
     name: 'Pigon',
     appFolder: 'app',
